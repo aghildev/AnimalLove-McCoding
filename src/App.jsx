@@ -25,10 +25,7 @@ function App() {
       <div style={{ display: "flex", gap: "10px" }}>
         {animals.map((animal) => {
           return (
-            <div
-              key={animal}
-              // style={{ display: "flex", border: "1px solid black" }}
-            >
+            <div key={animal}>
               <AnimalsShow animal={animal} />
             </div>
           );
